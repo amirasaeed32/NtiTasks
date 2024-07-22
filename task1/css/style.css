@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+.contain {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+header {
+    position: relative;
+    background-image: url(../images/high-angle-view-houses-snowy-mountain-landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
+    backdrop-filter: blur(10px);
+}
+nav {
+    display: inline-block;
+    float: right;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 1.5rem;
+    list-style: none;
+}
+li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 1.5rem;
+    list-style: none;
+}
+a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.icon {
+    color: black;
+    margin: 0 0.5rem;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20rem;
+    margin-right: 2rem;
+}
+.iconcontainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    height: 15rem;
+}
+.email {
+    padding: 20px;
+    min-width: 200px;
+}
+
+section {
+    min-height: calc(100vh - 40rem);
+    background-color: white; 
+    width: 90%;
+    margin: 0; padding: 0;
+    
+    height: 90rem;
+    margin: 5% auto;
+}
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.link{
+    background-color: white; 
+    padding: 10px;
+    width: 60%; 
+    height: 3rem; 
+    display: flex;
+    justify-content: flex-start;
+}
+.link nav p{
+    margin:0;
+}
+.link .na{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.d{
+    margin-right: 30px;
+    font-size: larger;
+}
+.na{
+    margin-right: 20px;
+    
+}
+.diiv{
+    width: 100%; 
+    background-color: white; 
+    margin: 0; padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: auto;
+    margin: 14.5px;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 19px;
+    justify-content: space-between;
+}
+.div2 {
+    width: 30%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.diiiv {
+    width: 60%;
+    padding: 20px;
+}
+.about, .top {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top .story {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top .story img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.top .story-text {
+    flex: 1;
+}
+
+.top .story-text h3 {
+    font-size: 0.9em;
+    margin: 0;
+    color: black;
+}
+
+.display-flex {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.left-hand img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.right-hand {
+    flex: 1;
+}
+
+.right-hand h2 {
+    margin: 0;
+    font-size: 1.1em;
+    color: black; 
+}
+
+.right-hand span {
+    font-size: 0.8em;
+    color: #666; 
+}
+
+
