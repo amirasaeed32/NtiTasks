@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+p, a, span, div{
+    font-size: 1.25rem
+}
+ul{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color:white;
+}
+/* a:active{} */
+/* a:visited{} */
+a:hover{}
+img{ max-width: 100%; }
+.text-gold{color:#D4A750;}
+.text-dark{color:#000000;}
+.text-white{color:white;}
+.bg-gold{background-color: #D4A750;}
+.bg-dark{background-color: black;}
+.container{ width:90%; margin: 0 auto;}
+.d-flex{ display: flex;}
+.space-between{ justify-content: space-between;}
+.py-1{ padding: 1% 0;}
+#logo{ width:4.5rem;}
+.active{
+    color: #D4A750;
+}
+/* .nav-item { 
+    margin: 0 2%;
+} */
+/* .nav-item:hover{
+    background-color: #D4A750;
+    color: #000000;
+} */
+.nav-items{
+    width:40%;
+    align-self: center;
+}
+.nav-items ul{
+    width:100%
+}
+.drop-down{
+    display: none;
+}
+#hero{
+    min-height: 35rem;
+    background-image: url(../images/1.jpg);
+    background-size:100% 100% ;
+    transition: all 1s; 
+    position: relative;
+    width: 100%;
+    animation-name: zoomIn; 
+    animation-duration: 10s; 
+    animation-iteration-count: infinite; }
+.hero-text{
+    position: absolute;
+    top: 44%;
+    margin-left: 29%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    
+}
+@keyframes zoomIn {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 115%;
+    }
+}
+.container2{
+width: 90%;
+margin: 1rem;
+display: flex;
+margin-left: 10%;
+
+}
+.left-hand{
+width: 45%;
+}
+.right-hand{
+width: 43%;
+margin-top: 2rem;
+margin-left: 2.5rem;
+line-height: 1.3;
+font-size: 1.5rem;
+}
+.head-service{
+    color:#d4a94d;
+    text-align: center;
+    
+}
+.div1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.underline{
+    width: 150px; 
+    height: 2px;
+    background-color: black;
+    margin: 10px auto 0;
+}
+.diiv{
+   
+    box-shadow: 0 0 5px gray; 
+    width:26%; 
+    margin: 1rem;
+}
+.head-center{
+text-align: center;
+color:#d4a94d;
+}
+.pr{
+    word-spacing: 0.5rem;
+    line-height: 1.5;
+    margin: 1rem;
+}
+.section2{ 
+    width: 95%; 
+     display: flex;
+    flex-wrap: nowrap; 
+     margin-right: 2rem;
+    flex-direction: row-reverse;
+    align-items: center;
+ } 
+ .img2{
+    max-width: 100%;
+ }
+ .section3{
+    width: 95%; 
+    display: flex;
+   flex-wrap: nowrap; 
+    margin-right: 2rem;
+  /* flex-direction: row-reverse;*/
+   align-items: center;
+   margin-left: 24%;
+   margin-right: 18%;
+} 
+ 
